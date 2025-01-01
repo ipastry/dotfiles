@@ -40,6 +40,11 @@ unset zlib
 
 eval "$(starship init zsh)"
 
+#
+# Fetch
+#
+
+fastfetch
 
 #
 # Wrap up
