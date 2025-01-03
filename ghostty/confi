@@ -8,7 +8,7 @@ font-size = 14
 
 # theme
 background-opacity = 0.8
-theme = catppuccine-mocha
+theme = catppuccin-mocha
 window-theme = ghostty
 
 # window
@@ -16,4 +16,4 @@ window-decoration = false
 resize-overlay = never
 
 # keybinds
-keybind = ctrl+space = toggle_window_decorations
+keybind = ctrl+space=toggle_window_decorations
