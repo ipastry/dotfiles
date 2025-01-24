@@ -1,0 +1,5 @@
+[Unit]
+DefaultDependencies=no
+Before=umount.target
+after=var-log.mount
+Requires=var-log.mount
