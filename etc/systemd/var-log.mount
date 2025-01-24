@@ -1,0 +1,5 @@
+[Unit]
+DefaultDependencies=no
+Before=umount.target
+after=systemd-journald.service
+Requires=systemd-journald.service
