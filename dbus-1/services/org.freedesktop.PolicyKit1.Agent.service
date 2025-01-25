@@ -1,4 +1,4 @@
 [D-BUS Service]
-Name=org.freedesktop.PolicyKit1.Agent
+Name=org.hyprwm.hyprpolkitagent
 Exec=/usr/lib/hyprpolkitagent
 SystemdService=hyprpolkitagent.service
