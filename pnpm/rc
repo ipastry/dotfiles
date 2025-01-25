@@ -1,0 +1,5 @@
+store-dir=/home/pastry/.local/share/pnpm/store
+global-bin-dir=/home/pastry/.local/share/pnpm/bin
+registry=https://registry.npmjs.org/
+strict-peer-dependencies=true
+auto-install-peers=true

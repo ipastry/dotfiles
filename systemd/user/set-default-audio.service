@@ -1,0 +1,14 @@
+[Unit]
+Description=Set Default Audio Sink
+After=pipewire.service wireplumber.service
+
+[Service]
+ExecStartPre=/bin/sleep 5
+ExecStart=/home/pastry/.local/bin/set-default-audio.sh
+Type=oneshot
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
+
